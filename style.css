@@ -1,0 +1,121 @@
+body{
+    background-color: rgb(62, 62, 62);
+    color: aliceblue;
+}
+
+.header span{
+    margin-left: 50px;
+    font-size: xx-large;
+    font-weight: bolder;
+    font-family: sans-serif;
+}
+
+.header input{
+    margin-left: 400px;
+    width: 500px;
+    height: 25px;
+    border-radius: 8px;
+    border-color: aliceblue;
+    border-width: 5px;
+    background-color: transparent;
+    color: aliceblue;
+    outline: none;
+}
+
+.header button{
+    margin-left: 10px;
+    height: 35px;
+    border-radius: 8px;
+    border-width: 5px;
+    border-color: aliceblue;
+    background-color: transparent;
+    color: aliceblue;
+}
+
+.header button:hover{
+    cursor: pointer;
+    background-color: black;
+}
+
+.place{
+    margin-top:40px;
+    margin-left: 50px;
+    font-size: x-large;
+    font-weight: bolder;
+    font-family: sans-serif;
+}
+
+.icon{
+    height: 80px;
+    width: 80px;
+    background-color: rgb(110, 109, 108);
+    border-radius: 40px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.icon1,.icon2,.icon3,.icon4,.icon5,.icon6,.icon7,.icon8{
+    height: 80px;
+    width: 80px;
+    background-color: transparent;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.curr{
+    margin-left: 50px;
+    display:flex;
+    flex-direction: row;
+}
+
+.details{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.day1,.day2,.day3,.day4,.day5{
+    display:flex;
+    flex-direction: column;
+    border:2px solid aliceblue;
+    border-radius: 10px;
+    width:380px;
+    height:30px;
+    margin:1px;
+    text-align: center;
+}
+
+.day1.active{
+    border-bottom:10px solid aliceblue;
+}
+
+.day2.active{
+    border-bottom:10px solid aliceblue;
+}
+
+.day3.active{
+    border-bottom:10px solid aliceblue;
+}
+
+.day4.active{
+    border-bottom:10px solid aliceblue;
+}
+
+.day5.active{
+    border-bottom:10px solid aliceblue;
+}
+
+.hourDetails{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.s1,.s2,.s3,.s4,.s5,.s6,.s7,.s8{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    border:2px solid aliceblue;
+    text-align: center;
+}

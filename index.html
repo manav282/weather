@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <span>WEATHERMAN</span>
+            <input type="text" class="city" placeholder="  Search for places...">
+            <button class="go">Search</button>
+        </div>
+        <div class="place"></div>
+        <div class="dt"></div>
+        <div class="curr">
+            <div><img alt="" class="icon"> 
+            </div>
+            <div>
+                <h3 class="temp"></h3>
+                <h3 class="description"></h3>
+            </div>    
+        </div>
+        <div class="details">
+            <div class="day1" onclick="weather.myfunction(1)"></div>
+            <div class="day2" onclick="weather.myfunction(2)"></div>
+            <div class="day3" onclick="weather.myfunction(3)"></div>
+            <div class="day4" onclick="weather.myfunction(4)"></div>
+            <div class="day5" onclick="weather.myfunction(5)"></div>
+        </div>
+        <div class="hourDetails">
+            <div class="s1">
+                <div class="hour1"></div>
+                <div class="curr1">
+                    <div><img alt="" class="icon1"> 
+                    </div>
+                    <div>
+                        <h3 class="temp1"></h3>
+                        <h3 class="description1"></h3>
+                        <h3 class="wind1"></h3>
+                        <h3 class="visibility1"></h3>
+
+                    </div>    
+                </div>
+            </div>
+            <div class="s2">
+                <div class="hour2"></div>
+                <div class="curr2">
+                    <div><img alt="" class="icon2"> 
+                    </div>
+                    <div>
+                        <h3 class="temp2"></h3>
+                        <h3 class="description2"></h3>
+                        <h3 class="wind2"></h3>
+                        <h3 class="visibility2"></h3>
+                    </div>    
+                </div>
+            </div>
+            <div class="s3">
+                <div class="hour3"></div>
+                <div class="curr3">
+                    <div><img alt="" class="icon3"> 
+                    </div>
+                    <div>
+                        <h3 class="temp3"></h3>
+                        <h3 class="description3"></h3>
+                        <h3 class="wind3"></h3>
+                        <h3 class="visibility3"></h3>
+                    </div>    
+                </div>
+            </div>
+            <div class="s4">
+                <div class="hour4"></div>
+                <div class="curr4">
+                    <div><img alt="" class="icon4"> 
+                    </div>
+                    <div>
+                        <h3 class="temp4"></h3>
+                        <h3 class="description4"></h3>
+                        <h3 class="wind4"></h3>
+                        <h3 class="visibility4"></h3>
+                    </div>    
+                </div>
+            </div>
+            <div class="s5">
+                <div class="hour5"></div>
+                <div class="curr5">
+                    <div><img alt="" class="icon5"> 
+                    </div>
+                    <div>
+                        <h3 class="temp5"></h3>
+                        <h3 class="description5"></h3>
+                        <h3 class="wind5"></h3>
+                        <h3 class="visibility5"></h3>
+                        
+                    </div>    
+                </div>
+            </div>
+            <div class="s6">
+                <div class="hour6"></div>
+                <div class="curr6">
+                    <div><img alt="" class="icon6"> 
+                    </div>
+                    <div>
+                        <h3 class="temp6"></h3>
+                        <h3 class="description6"></h3>
+                        <h3 class="wind6"></h3>
+                        <h3 class="visibility6"></h3>
+                    </div>    
+                </div>
+            </div>
+            <div class="s7">
+                <div class="hour7"></div>
+                <div class="curr7">
+                    <div><img alt="" class="icon7"> 
+                    </div>
+                    <div>
+                        <h3 class="temp7"></h3>
+                        <h3 class="description7"></h3>
+                        <h3 class="wind7"></h3>
+                        <h3 class="visibility7"></h3>
+                    </div>    
+                </div>
+            </div>
+            <div class="s8">
+                <div class="hour8"></div>
+                <div class="curr8">
+                    <div><img alt="" class="icon8"> 
+                    </div>
+                    <div>
+                        <h3 class="temp8"></h3>
+                        <h3 class="description8"></h3>
+                        <h3 class="wind8"></h3>
+                        <h3 class="visibility8"></h3>
+                    </div>    
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>
